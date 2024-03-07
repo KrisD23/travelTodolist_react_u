@@ -31,7 +31,7 @@ function Form() {
 
     const newItem = { description, quantity, packed: false, id: Date.now() };
     setDescription("");
-    setQuantity("");
+    setQuantity(1);
     console.log(newItem);
   }
 
